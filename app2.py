@@ -11,4 +11,4 @@ async def on_ready():
     print('Connected to voice channel: {}'.format(voice_channel))
 
 
-client.run("Your_Token_Here")
+client.run("Your_Token_Here", bot=False)
