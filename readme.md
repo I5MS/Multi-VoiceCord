@@ -8,8 +8,8 @@
 
 ## Features:
 
+- ### Secure
 - ### 24/7 online connectivity
 - ###  Highly optimized with minimal RAM usage (70 MB per account)
-- ### Secure
 - ### Supports multiple accounts
 
