@@ -20,7 +20,6 @@ This project contains a Python script (`main.py`) that manages the execution of 
   1. Terminates any previously running account processes.
   2. Clears the list of those processes.
   3. Launches each account script (`app1.py` to `app4.py`).
-  4. Waits for 6 hours (21,600 seconds) before restarting the accounts.
 
 - Each account script (`app1.py` to `app4.py`) uses the Discord API to:
   1. Log in to Discord using the provided token.
