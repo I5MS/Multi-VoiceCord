@@ -56,8 +56,6 @@ This project contains a Python script (`main.py`) that manages the execution of 
     python main.py
     ```
 
-- The accounts will automatically restart every 6 hours.
-
 ### Notes
 
 - Ensure that each account has the necessary permissions to connect to the voice channel.
