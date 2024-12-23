@@ -1,13 +1,10 @@
-from discord import Client, Intents
+from discord import Client
 
-client = Client(intents=Intents.default())
-
+client = Client()
 
 @client.event
 async def on_ready():
-    print('Logged in as {0.user}'.format(client))
-    voice_channel = client.get_channel(1111111111111111111)
-    await voice_channel.connect()
+    print(f'Logged in as {client.user}')
+    await client.get_channel(1111111111111111111).connect()
 
-
-client.run("Your_Token_Here", bot=False)
+client.run('Your_Token_Here', bot=False)
